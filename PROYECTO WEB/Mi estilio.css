@@ -1,0 +1,157 @@
+body {
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+  color: #0d47a1;
+}
+body{
+  background-image:
+  url(ambulancia\ prius4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+
+header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, white, #1976d2);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.banner{
+  clip-path: circle(35%);
+  width: 500px;
+  transition: .3s;
+}
+.banner:hover{
+  clip-path: circle(45%);
+  scale: 1.05;
+}
+.logo {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  border-radius: 12px;
+}
+
+.nav-enlace {
+  display: inline-block;
+  background: #eeeeee;
+  border-radius: 20px;
+  border: #0d47a1;
+  margin-bottom: auto;
+  border-bottom: #0d47a1;
+  padding: 10px;
+  text-align: center;
+   text-decoration: none;
+}
+
+.nav-enlace:hover{
+  background: rosybrown;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.service-card {
+    display: inline-block;
+  background: #3835e4;
+  border-radius: 20px;
+  border: #0d47a1;
+  margin-bottom: auto;
+  border-bottom: #0d47a1;
+  padding: 10px;
+  text-align: center;
+   text-decoration: none;
+  padding: 50px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background: #4670af;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(to bottom, #5577e7, #2e49e2);
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#video h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 60px;
+  color: #000000;
+}
+
+.video-container {
+  max-width: 90%;
+  margin: 40px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: none;
+}
